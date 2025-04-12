@@ -1,0 +1,127 @@
+{
+  "spider": "./s",
+  "lives": [
+    { "name": "临时线路", "type": 0, "ua": "okhttp/3.15", "url": "./t" }
+    //{ "name": "新闻线路", "type": 0, "pass": false, "ua": "okhttp/3.15", "url": "./txt/tv.txt" }
+  ],
+
+  "sites": [
+    { "key": "db", "name": "🔍王家剧场", "type": 3, "searchable": 0, "api": "csp_Douban", "ext": { "filter": "./d" } },
+    { "key": "瓜子", "name": "🍉瓜子", "type": 3, "api": "csp_Gz360", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_ReBo", "name": "☀️热播", "type": 3, "api": "csp_ReBo", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_LiteApple", "name": "🍎苹果", "type": 3, "api": "csp_LiteApple", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_Siren", "name": "🎉️私人", "type": 3, "api": "csp_Siren", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_Wwys", "name": "👩‍🌾农民", "type": 3, "api": "csp_Wwys", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://wwgz.cn" },
+    { "key": "csp_Qiyou", "name": "🦌奇优", "type": 3, "api": "csp_Qiyou", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_SaoHuo", "name": "🔥骚火", "type": 3, "api": "csp_SaoHuo", "playerType": 2, "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://shdy5.us" },
+    { "key": "csp_Tvyb", "name": "☁️TVB云播", "type": 3, "api": "csp_Tvyb", "playerType": 2, "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "http://www.tvyun01.com/" },
+    { "key": "csp_Jiaozi", "name": "饺子", "type": 3, "api": "csp_Jiaozi", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_DiDuan", "name": "📺低端", "type": 3, "api": "csp_Ddys", "searchable": 1, "quickSearch": 1, "filterable": 0 },
+    { "key": "csp_Lkdy", "name": "🏔️来看", "type": 3, "api": "csp_Lkdy", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_Ikanbot", "name": "👾Ikanbot", "type": 3, "api": "csp_Ikanbot", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_Wetv", "name": "🚗尘落", "type": 3, "api": "csp_Wetv", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_Jianpian", "name": "🍉荐片", "type": 3, "api": "csp_Jianpian", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "./j" },
+    { "key": "csp_Kanqiu", "name": "⚾看球", "type": 3, "api": "csp_Kanqiu", "searchable": 1, "quickSearch": 1, "changeable": 0, "gridview": 3, "style": { "type": "list" } },
+    { "key": "csp_Mp4Mov", "name": "🧲Mp4电影", "type": 3, "api": "csp_Mp4Mov", "searchable": 1, "quickSearch": 1, "filterable": 1, "ext": "https://www.momp4.cc" },
+    { "key": "csp_SeedHub", "name": "🧲SeedHub", "type": 3, "api": "csp_SeedHub", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_MeijuTT", "name": "🧲美剧天堂", "type": 3, "api": "csp_MeijuTT", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_MeijuMi", "name": "🧲美剧迷", "type": 3, "api": "csp_MeijuMi", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_BLSGod", "name": "🧲80S影视", "type": 3, "api": "csp_BLSGod", "searchable": 1, "quickSearch": 1, "filterable": 1 },
+    { "key": "csp_SP360", "name": "💘360", "type": 3, "api": "csp_SP360", "searchable": 1, "quickSearch": 1, "filterable": 1, "changeable": 1 },
+    {
+      "key": "天天",
+      "name": "天天┃App", "jar": "./q",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 1,
+      "ext": "baHR0cDovL3R0LnlzZHFqcy5jbg=="
+    },
+    {
+      "key": "星河",
+      "name": "星河┃App", "jar": "./q",
+      "type": 3,
+      "api": "csp_Xdai",
+      "playerType": 2,
+      "ext": "caHR0cDovL3Rlbmd4dW55dW5hbGl5dW4ub3NzLWNuLXNoYW5naGFpLmFsaXl1bmNzLmNvbS90ZW5neHVueXVuLnR4dHxmNWUydHg1M3lrcDZzMmM5fGY1ZTJ0eDUzeWtwNnMyYzl8MzYx"
+    },
+    {
+      "key": "热播",
+      "name": "热播┃App", "jar": "./q",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 1,
+      "ext": "caHR0cDovL3YucmJvdHYuY24="
+    },
+    {
+      "key": "追剧",
+      "name": "追剧┃App", "jar": "./q",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 1,
+      "ext": "daHR0cDovL3YubGt1eXMuY24="
+    },
+    {
+      "key": "23ys",
+      "name": "二三┃App", "jar": "./q",
+      "type": 3,
+      "api": "csp_Muou",
+      "playerType": 2,
+      "ext": "caHR0cHM6Ly8xMjN5c3cuY29tfDIz5b2x6KeGfDQuMS44"
+    },
+    {
+      "key": "主角",
+      "name": "主角┃App", "jar": "./q",
+      "type": 3,
+      "api": "csp_Muou",
+      "playerType": 2,
+      "ext": "caHR0cHM6Ly9tdW91Lmxpbmd1dHYuY2586L+95Ymn5b2x6ZmifDQuMS44"
+    },
+    {
+      "key": "蝴蝶",
+      "name": "蝴蝶┃App", "jar": "./q",
+      "type": 3,
+      "api": "csp_Hudie",
+      "playerType": 2,
+      "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
+    },
+    {
+      "key": "柠檬",
+      "name": "柠檬┃App", "jar": "./q",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "ext": "eaHR0cHM6Ly92aXAud3dnei5jbjo1MjAwL25tcGxheS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+    },
+    {
+      "key": "NoSearch_csp_BBB",
+      "name": "哔哩哔哩", "jar": "./q",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "naHR0cHM6Ly93d3cucWlhb2ppOC5jb20vdHZib3gvYmlsaS5qc29u"
+    }
+
+  ],
+  "parses": [
+    { "name": "Web", "type": 3, "url": "Web" },
+    { "name": "Demo", "type": 3, "url": "Demo" },
+    { "name": "巧技1", "type": 1, "url": "https://zy.qiaoji8.com/neibu.php?url=" },
+    { "name": "巧技2", "type": 1, "url": "https://zy.qiaoji8.com/guozi.php?url=" },
+    { "name": "CK", "type": 0, "url": "https://www.ckplayer.vip/jiexi/?url=", "ext": { "ua": "okhttp/3.15" } }
+  ],
+  "rules": [
+    { "name": "proxy", "hosts": [ "github.com", "googlevideo.com", "youtube.com", "googleapis.com", "ytimg.com", "nivod.tv", "tangrenjie.tv" ] },
+    { "name": "暴风廣告", "hosts": [ "bfzy", "s5.bfzycdn" ], "regex": [ "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY" ] },
+    { "name": "磁力廣告", "hosts": [ "magnet" ], "regex": [ "更多", "社區", "xuu", "最新", "直播", "更新", "社区", "有趣", "英皇体育", "全中文AV在线", "澳门皇冠赌场", "哥哥快来", "美女荷官", "裸聊", "新片首发", "UUE29" ] },
+    { "name": "星星廣告", "hosts": [ "aws.ulivetv.net" ], "regex": [ "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9,[\\s\\S]*?#EXT-X-DISCONTINUITY" ] },
+    { "name": "量子廣告", "hosts": [ "vip.lz", "hd.lz", "v.cdnlz" ], "regex": [ "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+" ] },
+    { "name": "非凡廣告", "hosts": [ "vip.ffzy", "hd.ffzy" ], "regex": [ "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY", "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+" ] },
+    { "name": "農民嗅探", "hosts": [ "toutiaovod.com" ], "regex": [ "video/tos/cn" ] },
+    { "name": "火山嗅探", "hosts": [ "huoshan.com" ], "regex": [ "item_id=" ] },
+    { "name": "抖音嗅探", "hosts": [ "douyin.com" ], "regex": [ "is_play_url=" ] }
+  ],
+  "flags": [ "youku", "qq", "iqiyi", "qiyi", "letv", "sohu", "tudou", "pptv", "mgtv", "wasu" ],
+  "ads": [ "thy.dacedsfa.cn", "stj.v1vo.top", "mav.mavuz.com", "mg.g1mm3d.cn", "s19.cnzz.com", "f5w.as12df.top", "z2.cnzz.com", "www.baihuillq.com", "mscs.svaeuzh.cn", "s9.cnzz.com", "tj.tianwenhu.com", "cdn.bootcss.com", "z5.cnzz.com", "mimg.0c1q0l.cn", "www.jixunkyy.cn", "xc.hubeijieshikj.cn", "k.jinxiuzhilv.com", "s13.cnzz.com", "googletagmanager.com", "mc.usihnbcq.cn", "xg.gars57.cn", "z8.cnzz.com", "um.cavuc.com", "ppl.xunzhuo123.com", "z1.cnzz.com", "wan.51img1.com", "iqiyi.hbuioo.com", "sp.chemacid.cn", "cnzz.mmstat.com", "qiu.xixiqiu.com", "vivovip.mmszxc.top", "xg.whsbpw.cn", "xdn.cqqc3.com", "xomk.jiangjunmh.top", "c.cnzz.com", "ae01.alicdn.com", "vip.ffzyad.com", "z7.cnzz.com", "z3.cnzz.com", "wofwk.aoidf3.com", "www.92424.cn", "cnzz.hhttm.top", "cms.qdwght.com", "z12.cnzz.com", "img.mosflower.cn", "img.xunzhuo123.com", "tips.gamevvip.com", "tp.vinuxhome.com", "cdnjs.hnfenxun.com", "s4.cnzz.com", "google-analytics.com", "xg.huataisangao.cn", "s96.cnzz.com", "s23.cnzz.com", "q11.cnzz.com", "hm.baidu.com", "ehwe.yhdtns.com", "z6.cnzz.com", "k.wudejia.com", "43.248.128.138" ]
+}
