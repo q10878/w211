@@ -1,5 +1,5 @@
 {
-  "spider": "./Yoursmile.jar",
+  "spider": "./v1",
   "lives": [
     { "name": "临时线路", "type": 0, "ua": "okhttp/3.15", "url": "./v.txt" }
     //{ "name": "新闻线路", "type": 0, "pass": false, "ua": "okhttp/3.15", "url": "./txt/tv.txt" }
@@ -37,7 +37,7 @@
     { "key": "xmlvip", "name": "VIP资源", "type": 1, "api": "https://vip1280.net/api.php/provide/vod" },
     {
       "key": "天天",
-      "name": "天天┃App", "jar": "./fix.jar",
+      "name": "天天┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -45,7 +45,7 @@
     },
     {
       "key": "热播",
-      "name": "热播┃App", "jar": "./fix.jar",
+      "name": "热播┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -53,7 +53,7 @@
     },
     {
       "key": "追剧",
-      "name": "追剧┃App", "jar": "./fix.jar",
+      "name": "追剧┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -61,7 +61,7 @@
     },
     {
       "key": "剧评",
-      "name": "剧评┃App", "jar": "./fix.jar",
+      "name": "剧评┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_Jpys",
       "playerType": 1,
@@ -69,7 +69,7 @@
     },
     {
       "key": "巧技二",
-      "name": "巧技┃搜索", "jar": "./fix.jar",
+      "name": "巧技┃搜索", "jar": "./v2",
       "type": 3,
       "api": "csp_qiao2",
       "playerType": 2,
@@ -77,7 +77,7 @@
     },
     {
       "key": "永夜",
-      "name": "永夜┃App", "jar": "./fix.jar",
+      "name": "永夜┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_Muou",
       "playerType": 2,
@@ -85,7 +85,7 @@
     },
     {
       "key": "好客",
-      "name": "好客┃App", "jar": "./fix.jar",
+      "name": "好客┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_Shark",
       "playerType": 1,
@@ -93,7 +93,7 @@
     },
     {
       "key": "星河",
-      "name": "星河┃App", "jar": "./fix.jar",
+      "name": "星河┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
@@ -101,7 +101,7 @@
     },
     {
       "key": "优质",
-      "name": "优质┃App", "jar": "./fix.jar",
+      "name": "优质┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_Xdai",
       "playerType": 2,
@@ -109,7 +109,7 @@
     },
     {
       "key": "蝴蝶",
-      "name": "蝴蝶┃App", "jar": "./fix.jar",
+      "name": "蝴蝶┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_Hudie",
       "playerType": 2,
@@ -117,7 +117,7 @@
     },
     {
       "key": "柠檬",
-      "name": "柠檬┃App", "jar": "./fix.jar",
+      "name": "柠檬┃App", "jar": "./v2",
       "type": 3,
       "api": "csp_Nmvod",
       "playerType": 2,
@@ -125,7 +125,7 @@
     },
     {
       "key": "NoSearch_csp_BBB",
-      "name": "哔哩哔哩", "jar": "./fix.jar",
+      "name": "哔哩哔哩", "jar": "./v2",
       "type": 3,
       "api": "csp_Bili",
       "ext": "naHR0cHM6Ly93d3cucWlhb2ppOC5jb20vdHZib3gvYmlsaS5qc29u"
