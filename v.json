@@ -2,7 +2,7 @@
   "spider": "./v1.jar",
   "lives": [
     { "name": "直播线路", "type": 0, "ua": "okhttp/3.15", "url": "https://gitee.com/tv211/tv/raw/master/v" },
-    //{ "name": "新闻线路", "type": 0, "pass": false, "ua": "okhttp/3.15", "url": "./txt/tv.txt" }
+    { "name": "新闻线路", "type": 0, "pass": false, "ua": "okhttp/3.15", "url": "./txt/tv.txt" }
   ],
 
   "sites": [
