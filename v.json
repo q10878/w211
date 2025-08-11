@@ -8,15 +8,21 @@
   "sites": [
     { "key": "DB", "name": "🔍王家剧场", "type": 3, "api": "csp_Douban", "ext": { "filter": "./json/db.json" } },
     //{ "key": "ConfigCenter", "name": "🅿网盘配置中心", "type": 3, "api": "csp_ConfigCenter", "ext": { "commonConfig": "./json/peizhi.json" } },
-    { "key": "py_jianpian", "name": "荐片", "type": 3, "api": "./json/jp.py" },
-    { "key": "py_nongmin", "name": "农民", "type": 3, "api": "./json/nm.py" },
-    { "key": "py_taozi", "name": "桃子", "type": 3, "api": "./json/tz.py" },
-    //{ "key": "荐片", "name": "荐片", "type": 3, "api": "csp_Jianpian"},
+    { "key": "厂长", "name": "厂长", "type": 3, "api": "csp_Czsapp", "ext": "https://www.czzymovie.com/" },
+    { "key": "荐片", "name": "荐片", "type": 3, "api": "csp_Jianpian", "ext": "./json/jp.json" },
+
+
     { "key": "瓜子", "name": "瓜子", "type": 3, "api": "csp_Gz360" },
     { "key": "苹果", "name": "苹果", "type": 3, "api": "csp_LiteApple" },
-    //{ "key": "农民", "name": "农民2", "type": 3, "api": "csp_XYQHiker", "ext": "./json/nm.json" },
+    { "key": "csp_Wwys", "name": "农民", "type": 3, "api": "csp_Wwys", "ext": "https://www.wwgz.cn" },
+    //{ "key": "农民", "name": "农民", "type": 3, "api": "csp_XYQHiker", "ext": "./json/nm.json" },
+    //{ "key": "py_nongmin", "name": "农民", "type": 3, "api": "./json/nm.py" },
     { "key": "奇优", "name": "奇优", "type": 3, "api": "csp_Qiyou" },
     { "key": "饺子", "name": "饺子", "type": 3, "api": "csp_Jiaozi" },
+    { "key": "csp_KmeiJu", "name": "鸭梨", "type": 3, "api": "csp_KmeiJu" },
+    { "key": "csp_baibai", "name": "白白", "type": 3, "api": "csp_SuBaiBai", "ext": "https://www.subaibai.com" },
+    { "key": "csp_SaoHuo", "name": "骚火", "type": 3, "api": "csp_SaoHuo", "ext": "https://shdy5.us" },
+    { "key": "csp_FourK", "name": "绝对", "type": 3, "api": "csp_FourK", "ext": "https://www.4kvm.me/" },
     //{ "key": "py_tengxun", "name": "腾讯", "type": 3, "api": "./json/tx.py", "ua": "okhttp/3.15" },
     //{ "key": "py_mangguo", "name": "芒果", "type": 3, "api": "./json/mg.py", "ua": "okhttp/3.15" },
     { "key": "可可", "name": "可可", "type": 3, "api": "csp_XYQHiker", "ext": "./json/kk.json" },
@@ -37,29 +43,15 @@
       "ext": "7lj763gg0939795i0378i481k204i2i3ghlh840l96j065790g5j18l2g043595k4j955ik4ij0h97ji6h18g180l7g54ik5g036775lh7k792l87kj538kl3kll1j"
     },
     {
-      "key": "kafeiys", "name": "狂风┃APP", "type": 3, "api": "csp_Qiji", "playerType": 2, "jar": "./v2.jar",
-      "ext": "7lj763gg402i7942522k849kg4499i9hl1k5ik48i38l292l1l4l1klgl41255091i8313k2ik478h8j751kh28kh9gk56l3k874684ll3h7j9k83l9034li7lhi5g45k8k3j6hkk760276g8h5h295i9jk7597177g3kk7g3hh79ili"
-    },
-    {
       "key": "永夜", "jar": "./v2.jar", "name": "永夜┃App", "type": 3, "api": "csp_Muou",
       "ext": "7lj763gg0939790i5g64qiaoji9ki3hj5k98jil1g6j6jg2458hhjjh9i4i62271j0hj124lj80ll9i8"
     },
-    {
-      "key": "专业", "jar": "./v2.jar", "name": "专业┃App", "type": 3, "api": "csp_Xdai",
-      "ext": "7lj763gg402i7942503g9gj0hj4li291k1lii113j8862i3j7g5412g5gi4k0k5i4ki513l9j61ijjig2735g88gg0g941h2g2352710ggli85h268996ig539"
-    },
-    {
-      "key": "星河", "jar": "./v2.jar", "name": "星河┃App", "type": 3, "api": "csp_Xdai",
-      "ext": "7lj763gg0939791954248jihg5529587lig9i654j59i326l5j5208hklg19161j139753h090539gig3g11h49gk3l21hl4hk637h53ghg6ikl2219j28lj76h8430kkkklj6hkl022272g8h5g69068hli583061k3l9373hk09hg9j79l31l43h06187l37j675lhkg57k511jk"
-    },
+
     {
       "key": "juziys", "jar": "./v2.jar", "name": "橘子┃App", "type": 3, "api": "csp_Xdai",
       "ext": "7lj763gg093979191l288ij5g25989jil1g6850i829j24354k134hg2gi41025i4hi708k1i100i3j56k01klj3g7g94khkg230250hh2kh99gi77j021g03llj"
     },
-    {
-      "key": "驿站", "jar": "./v2.jar", "name": "驿站┃App", "type": 3, "api": "csp_Muou",
-      "ext": "7lj763gg402i7942403h83i2h945858hljhji148i18k2837535112l2qiaojik9075l17028i49g192419i8g3245h3j1l9gi02h6k7732650h3h09jkg759j65hj39l50347k3gj97l4g12l7h6418h6k9j04l26i1glgj3631973hh280lkihjh "
-    },
+
     {
       "key": "云云", "name": "云云┃App", "type": 3, "api": "csp_Xdai", "jar": "./v2.jar",
       "ext": "7lj763gg093979580864jh86k312jji4g5k69h0k9hj36h760g1954g2h71j4801158g09h3i00191ji6i1kk980g3l919h6g131680gk0kg98lk7kj23kg76il84841ghg693hkg72777"
@@ -68,10 +60,7 @@
       "key": "主角", "name": "主角┃App", "type": 3, "api": "csp_Muou", "playerType": 2, "jar": "./v2.jar",
       "ext": "7lj763gg402i794247258k9jh6598585l3g6ij13il8g20g9qiaoji8j9i9k1g3k90h7i507i213k5j602"
     },
-    {
-      "key": "趣看", "jar": "./v2.jar", "name": "趣看┃App", "type": 3, "api": "csp_Muou",
-      "ext": "7lj763gg402i7942463j9j9jg1499j87l9g9i413il8gqiaoji20g7g4919j3g019296lk9351hh3k5gg38lj0754il3jg"
-    },
+
     {
       "key": "蝴蝶", "jar": "./v2.jar", "name": "蝴蝶┃App", "type": 3, "api": "csp_Hudie",
       "ext": "7lj763gg402i794255648kj0hj539g9hl7k6jk52ji"
@@ -81,9 +70,9 @@
       "ext": "7lj763gg402i79425l279ijih4128l9ig8lh9h0h9gi62h24504217liki13141i1k9g5igkj6429h946408gl8lgh"
     },
 
-    { "key": "厂长", "name": "厂长", "type": 3, "api": "csp_Czsapp", "ext": "https://www.czzymovie.com/" },
-    { "key": "低端", "name": "低端", "type": 3, "api": "csp_Ddys" },
-    { "key": "来看", "name": "来看", "type": 3, "api": "csp_Lkdy" },
+
+    { "key": "低端", "name": "低端()", "type": 3, "api": "csp_Ddys" },
+    //{ "key": "来看", "name": "来看", "type": 3, "api": "csp_Lkdy" },
     { "key": "爱看", "name": "爱看", "type": 3, "api": "csp_Ikanbot" },
     { "key": "看球", "name": "看球", "type": 3, "api": "csp_Kanqiu", "gridview": 3, "style": { "type": "list" } },
     { "key": "csp_MeijuTT", "name": "美剧天堂", "type": 3, "api": "csp_MeijuTT" },
