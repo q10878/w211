@@ -6,12 +6,11 @@
   ],
 
   "sites": [
-    { "key": "低端", "name": "🔍王家剧场", "type": 3, "api": "csp_Ddys" },
     //{ "key": "DB", "name": "🔍王家剧场", "type": 3, "api": "csp_Douban", "ext": { "filter": "./json/db.json" } },
     //{ "key": "ConfigCenter", "name": "🅿网盘配置中心", "type": 3, "api": "csp_ConfigCenter", "ext": { "commonConfig": "./json/peizhi.json" } },
-    { "key": "厂长", "name": "厂长", "type": 3, "api": "csp_Czsapp", "ext": "https://www.czzymovie.com/" },
+    { "key": "厂长", "name": "🔍王家剧场", "type": 3, "api": "csp_Czsapp", "ext": "https://www.czzymovie.com/" },
     { "key": "荐片", "name": "荐片", "type": 3, "api": "csp_Jianpian", "ext": "./json/jp.json" },
-
+    { "key": "低端", "name": "低端", "type": 3, "api": "csp_Ddys" },
     { "key": "瓜子", "name": "瓜子", "type": 3, "api": "csp_Gz360" },
     { "key": "苹果", "name": "苹果", "type": 3, "api": "csp_LiteApple" },
     { "key": "csp_Wwys", "name": "农民", "type": 3, "api": "csp_Wwys", "ext": "https://www.wwgz.cn" },
