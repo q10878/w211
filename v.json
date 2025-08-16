@@ -6,11 +6,11 @@
   ],
 
   "sites": [
-    { "key": "DB", "name": "🔍王家剧场", "type": 3, "api": "csp_Douban", "ext": { "filter": "./json/db.json" } },
+    { "key": "低端", "name": "🔍王家剧场", "type": 3, "api": "csp_Ddys" },
+    //{ "key": "DB", "name": "🔍王家剧场", "type": 3, "api": "csp_Douban", "ext": { "filter": "./json/db.json" } },
     //{ "key": "ConfigCenter", "name": "🅿网盘配置中心", "type": 3, "api": "csp_ConfigCenter", "ext": { "commonConfig": "./json/peizhi.json" } },
     { "key": "厂长", "name": "厂长", "type": 3, "api": "csp_Czsapp", "ext": "https://www.czzymovie.com/" },
     { "key": "荐片", "name": "荐片", "type": 3, "api": "csp_Jianpian", "ext": "./json/jp.json" },
-
 
     { "key": "瓜子", "name": "瓜子", "type": 3, "api": "csp_Gz360" },
     { "key": "苹果", "name": "苹果", "type": 3, "api": "csp_LiteApple" },
@@ -25,11 +25,9 @@
     { "key": "csp_FourK", "name": "绝对", "type": 3, "api": "csp_FourK", "ext": "https://www.4kvm.me/" },
     //{ "key": "py_tengxun", "name": "腾讯", "type": 3, "api": "./json/tx.py", "ua": "okhttp/3.15" },
     //{ "key": "py_mangguo", "name": "芒果", "type": 3, "api": "./json/mg.py", "ua": "okhttp/3.15" },
-    { "key": "可可", "name": "可可", "type": 3, "api": "csp_XYQHiker", "ext": "./json/kk.json" },
     { "key": "剧圈", "name": "剧圈", "type": 3, "api": "csp_XYQHiker", "ext": "./json/jq.json", "click": "document.getElementById('playleft').children[0].contentWindow.document.getElementById('start').click()" },
     { "key": "永乐", "name": "永乐", "type": 3, "api": "csp_XBPQ", "ext": { "请求头": "User-Agent$MOBILE_UA", "编码": "UTF-8", "分类": "电影$1#电视剧$2#综艺$3#动漫$4", "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43", "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html" } },
     { "key": "面包", "name": "面包", "type": 3, "api": "csp_XBPQ", "ext": { "请求头": "User-Agent$MOBILE_UA", "编码": "UTF-8", "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html", "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47", "简介": "简介：&&" } },
-    { "key": "西瓜", "name": "西瓜", "type": 3, "api": "csp_XBPQ", "ext": { "主页url": "https://sszzyy.com/", "分类url": "https://sszzyy.com/index.php/vod/show/id/{cateId}/page/{catePg}.html", "分类": "电影$20#剧集$37", "标题": "title=\"*\">&&</div>", "图片": "data-original=\"&&\"", "链接": "href=\"&&\"", "播放数组": "content_playlist&&</ul>", "播放列表": "<a&&</a>", "播放标题": ">&&</a>", "跳转播放链接": "src=\"&&\"", "线路数组": "class=\"titleName cr3 swiper-slide&&</a>", "线路标题": ">&&</a>" } },
 
     { "key": "天天", "name": "天天┃App", "jar": "./v2.jar", "type": 3, "api": "csp_TTian", "ext": "7lj763gg09397919456493i0h44j8681highi4" },
     { "key": "热播", "name": "热播┃App", "jar": "./v2.jar", "type": 3, "api": "csp_TTian", "ext": "7lj763gg0939791h1l3888jig44gi291li" },
@@ -71,7 +69,7 @@
     },
 
 
-    { "key": "低端", "name": "低端()", "type": 3, "api": "csp_Ddys" },
+
     //{ "key": "来看", "name": "来看", "type": 3, "api": "csp_Lkdy" },
     { "key": "爱看", "name": "爱看", "type": 3, "api": "csp_Ikanbot" },
     { "key": "看球", "name": "看球", "type": 3, "api": "csp_Kanqiu", "gridview": 3, "style": { "type": "list" } },
